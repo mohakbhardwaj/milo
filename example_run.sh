@@ -2,8 +2,8 @@
 
 python run.py --env Hopper-v4 \
               --seed 100 \
-              --expert_db Hopper-v6_expert.pt \
-              --offline_db Hopper-v6_offline.pt \
+              --expert_db Hopper-v4_expert.pt \
+              --offline_db Hopper-v4_offline.pt \
               --n_models 4 \
               --lambda_b 0.0025 \
               --samples_per_step 40000 \
